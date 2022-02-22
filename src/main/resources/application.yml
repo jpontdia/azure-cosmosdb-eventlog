@@ -1,0 +1,46 @@
+logging:
+  level:
+    root: INFO
+    com:
+      ads:
+        vulcan: DEBUG
+      azure:
+        cosmos:
+          implementation: ERROR
+    httpclient:
+      wire: INFO
+    org:
+      apache:
+        http: INFO
+        qpid:
+          jms:
+            JmsConnection: OFF
+      springframework:
+        web:
+          client:
+            RestTemplate: INFO
+
+
+server:
+  port: 8082
+  error:
+    include-message: always
+
+spring:
+  profiles:
+    active: local
+  jackson:
+    default-property-inclusion: NON_NULL
+
+azure:
+  cosmos:
+    # In the azure portal select the Azure Cosmos DB account
+    # Next value is the name of the Azure Cosmos DB account
+    database: MY_DATABASE_NAME
+    # On left menu select keys option
+    # Copy from URI field
+    uri: MY_URI_DATABASE
+    # Copy from PRIMARY KEY FIELD
+    key: MY_PRIMARY_KEY
+    populateQueryMetrics: false
+    validateUri: true
