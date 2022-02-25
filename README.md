@@ -25,6 +25,11 @@ environment variables must be configured with the proper values:
 * AZURE_COSMOS_URI. URI value for the Azure Cosmos DB account.
 * AZURE_COSMOS_KEY. Primary key for the Azure Cosmos DB account.
 
+The data can be retrieved from Azure portal, selecting the Cosmos DB account,
+example:
+![configuration](./docs/azure-configuration.jpg)
+
+
 # Build and test the application
 
 Build your Spring Boot application with Maven and run it; for example:
