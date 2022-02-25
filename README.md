@@ -27,7 +27,8 @@ environment variables must be configured with the proper values:
 
 The data can be retrieved from Azure portal, selecting the Cosmos DB account,
 example:
-![configuration](./docs/azure-configuration.jpg)
+
+![configuration](./doc/azure-configuration.jpg)
 
 
 # Build and test the application
