@@ -9,8 +9,7 @@
 4. [Build and test the application](#build-and-test-the-application)
 
 ## Objectives
-1. Receive event messages in a reactive microservice with Spring boot and 
-   send the data to Azure Cosmos DB.
+Receive event messages in a reactive microservice with Spring boot and send the data to Azure Cosmos DB.
 
 ## Prerequisites
 * An Azure subscription.
